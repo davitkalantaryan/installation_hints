@@ -2,6 +2,9 @@
   
 Environment that shows installation path: CPPUTILS_QTKEYCHAIN_ROOT  
   
+## Keywords  
+Qt keychain, ciphering, CriptProtectData, CriptUnprotectData  
+  
 ## Some URLs  
  1. [Chat GPT static](https://chatgpt.com/share/6a4e0255-07d8-83eb-a6e1-3c5df36e8fd4)  
  2. [Chat GPT chat](https://chatgpt.com/gg/v/6a4e0291e130819f92a147587dccff2e?token=is8Rk4EJUZXw4dxUaJTPug)  
