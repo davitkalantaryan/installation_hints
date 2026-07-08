@@ -9,7 +9,7 @@ QR code image reader
 
 ## Build on some OSs  
   
-### QtKeychain installation on Windows  
+### zxing-cpp installation on Windows  
 ```bat  
 git clone https://github.com/davitkalantaryan/zxing-cpp.git --recursive 
 cd zxing-cpp  
@@ -25,4 +25,22 @@ cmake --build build_arm64 --config Release --parallel
 cmake --install build_arm64 --config Debug  
 move D:\davit\install\zxing\arm64\lib\ZXing.lib D:\davit\install\zxing\arm64\lib\ZXingd.lib
 cmake --install build_arm64 --config Release  
+```  
+   
+### zxing-cpp installation on Linux  
+```bash  
+git clone https://github.com/davitkalantaryan/zxing-cpp.git --recursive 
+cd zxing-cpp
+cmake -S . -B build_x64 -DCMAKE_INSTALL_PREFIX=/home/kalantar/install/zxing/x64
+cmake --build build_x64 --config Release --parallel
+cmake --install build_x64 --config Release
+```  
+  
+### zxing-cpp installation on Macos  
+```bash  
+git clone https://github.com/davitkalantaryan/zxing-cpp.git --recursive 
+cd zxing-cpp
+cmake -S . -B build_arm64 -DCMAKE_INSTALL_PREFIX=/Users/kalantar/install/zxing/arm64
+cmake --build build_arm64 --config Release --parallel
+cmake --install build_arm64 --config Release
 ```  
